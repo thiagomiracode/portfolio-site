@@ -54,6 +54,7 @@ Run the development server:
 Bash
 
 npm run dev
+
 📄 Contact
 LinkedIn: Thiago Mira
 
