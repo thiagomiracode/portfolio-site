@@ -34,42 +34,9 @@ A clean *dark mode* interface with optimized typography (**Geist Font**), design
 
 ---
 
-## 🚀 Local Setup
-
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/thiagomiracode/portfolio-site.git](https://github.com/thiagomiracode/portfolio-site.git)
-Install dependencies:
-
-Bash
-
-npm install
-Configure Environment Variables: Create a .env.local file in the root directory and add your key:
-
-Code snippet
-
-OPENAI_API_KEY=your_key_here
-Run the development server:
-
-Bash
-
-npm run dev
-
-📄 Contact
-LinkedIn: Thiago Mira
-
-Email: thiago.mira2906@gmail.com
-
-WhatsApp: +55 (71) 99126-6746
-
-"Transforming complex ideas into scalable and intelligent software solutions."
-
-
-### Como atualizar no GitHub:
-1. No seu VS Code, substitua o conteúdo do `README.md` por este texto acima.
-2. Salve o arquivo.
-3. No terminal, execute:
-   ```bash
-   git add README.md
-   git commit -m "docs: translate README to English for global reach"
-   git push origin main
+🚀 Getting StartedTo run this project locally, follow these steps:Clone the repositoryBashgit clone https://github.com/thiagomiracode/portfolio-site.git
+cd portfolio-site
+Install dependenciesBashnpm install
+Configure Environment VariablesCreate a .env.local file in the root directory and add your OpenAI credentials:Code snippetOPENAI_API_KEY=your_actual_api_key_here
+Launch the development serverBashnpm run dev
+The application will be available at http://localhost:3000📧 Get in TouchI am always open to discussing new projects, creative ideas, or opportunities to be part of your vision.ChannelContact DetailLinkedIn/in/thiago-miraEmailthiago.mira2906@gmail.comWhatsApp+55 (71) 99126-6746"Transforming complex ideas into scalable and intelligent software solutions."
