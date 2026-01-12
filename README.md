@@ -1,76 +1,74 @@
 # 🚀 Thiago Mira | Full Stack Developer & AI Specialist
 
-Este repositório contém o código-fonte do meu portfólio profissional. Uma aplicação de alta performance focada em experiência do usuário (UX), internacionalização (i18n) e integração de Inteligência Artificial generativa.
+This repository contains the source code for my professional portfolio. A high-performance application built with **Next.js 15**, focusing on User Experience (UX), Internationalization (i18n), and Generative AI integration.
 
-🌐 **Confira o projeto online:** [thiagomira.com.br](https://thiagomira.com.br)
+🌐 **Live Demo:** [thiagomira.com.br](https://thiagomira.com.br)
 
 ---
 
-## 🛠️ Tecnologias e Arquitetura
+## 🛠️ Tech Stack & Architecture
 
-O projeto foi desenvolvido utilizando as melhores práticas do ecossistema moderno de desenvolvimento:
+The project was developed using modern development best practices:
 
 * **Core:** Next.js 15 (App Router) & React.
-* **Inteligência Artificial:** Integração via API da OpenAI (Modelo GPT-4o-mini).
-* **Estilização:** Tailwind CSS para design responsivo e fluído.
-* **Context API:** Gerenciamento de estado global para tradução em tempo real (PT-BR / EN).
+* **Artificial Intelligence:** Integration with OpenAI API (GPT-4o-mini model).
+* **Styling:** Tailwind CSS for responsive and fluid design.
+* **State Management:** Context API for real-time translation (EN / PT-BR).
 * **Icons:** Lucide React.
 
 ---
 
-## ✨ Funcionalidades Principais
+## ✨ Key Features
 
-### 🤖 Assistente de IA Integrado
-O diferencial do portfólio é um Chatbot inteligente que atua como meu assistente virtual. Ele foi configurado para responder dúvidas sobre:
-* Meus serviços e tecnologias.
-* Estimativas de prazos e valores.
-* Orientações de contato direto via WhatsApp.
+### 🤖 Integrated AI Assistant
+The portfolio's highlight is an intelligent Chatbot acting as my virtual assistant. It is configured to answer questions about:
+* Services and technology stack.
+* Project estimates and timelines.
+* Direct contact guidance (WhatsApp/Email).
 
-### 🌍 Internacionalização Dinâmica (i18n)
-Sistema de troca de idioma sem necessidade de recarregar a página. Utiliza **Context API** para garantir que todos os componentes (Hero, Projetos, Chat, Footer) atualizem instantaneamente.
+### 🌍 Dynamic Internationalization (i18n)
+A seamless language switching system that updates the entire UI without page reloads. Using **Context API**, it ensures that all components (Hero, Projects, Chat, Footer) synchronize instantly.
 
-### 📱 Design Responsivo & Executivo
-Interface *dark mode* limpa, com tipografia otimizada (**Geist Font**), pensada para transmitir seriedade e inovação técnica.
+### 📱 Executive Responsive Design
+A clean *dark mode* interface with optimized typography (**Geist Font**), designed to convey technical innovation and professional reliability.
 
 ---
 
-## 🚀 Como Executar Localmente
+## 🚀 Local Setup
 
-1. **Clone o repositório:**
+1. **Clone the repository:**
    ```bash
    git clone [https://github.com/thiagomiracode/portfolio-site.git](https://github.com/thiagomiracode/portfolio-site.git)
-Instale as dependências:
+Install dependencies:
 
 Bash
 
 npm install
-Configure as variáveis de ambiente: Crie um arquivo .env.local na raiz e adicione sua chave:
+Configure Environment Variables: Create a .env.local file in the root directory and add your key:
 
 Code snippet
 
-OPENAI_API_KEY=sua_chave_aqui
-Inicie o servidor de desenvolvimento:
+OPENAI_API_KEY=your_key_here
+Run the development server:
 
 Bash
 
 npm run dev
-📄 Contato
+📄 Contact
 LinkedIn: Thiago Mira
 
 Email: thiago.mira2906@gmail.com
 
-WhatsApp: (71) 99126-6746
+WhatsApp: +55 (71) 99126-6746
 
-"Transformando ideias complexas em soluções de software escaláveis e inteligentes."
+"Transforming complex ideas into scalable and intelligent software solutions."
 
 
-### Como aplicar agora:
-1. Abra o arquivo `README.md` no seu VS Code.
-2. Apague tudo o que está lá.
-3. Cole o código acima.
-4. Salve o arquivo.
-5. No terminal, envie a atualização:
+### Como atualizar no GitHub:
+1. No seu VS Code, substitua o conteúdo do `README.md` por este texto acima.
+2. Salve o arquivo.
+3. No terminal, execute:
    ```bash
    git add README.md
-   git commit -m "docs: formatando README para estilo executivo"
+   git commit -m "docs: translate README to English for global reach"
    git push origin main
