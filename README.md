@@ -58,8 +58,9 @@ Copiar código
 npm run dev
 The application will be available at:
 👉 http://localhost:3000
+---
 
-📬 Get in Touch
+### 📬 Get in Touch
 I’m always open to discussing new projects, innovative ideas, or strategic partnerships.
 
 Channel	Contact
