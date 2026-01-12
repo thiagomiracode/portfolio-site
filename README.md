@@ -34,9 +34,38 @@ A clean *dark mode* interface with optimized typography (**Geist Font**), design
 
 ---
 
-🚀 Getting StartedTo run this project locally, follow these steps:Clone the repositoryBashgit clone https://github.com/thiagomiracode/portfolio-site.git
+## 🚀 Getting Started
+
+Follow the steps below to run this project locally.
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/thiagomiracode/portfolio-site.git
 cd portfolio-site
-Install dependenciesBashnpm install
-Configure Environment VariablesCreate a .env.local file in the root directory and add your OpenAI credentials:Code snippetOPENAI_API_KEY=your_actual_api_key_here
-Launch the development serverBashnpm run dev
-The application will be available at http://localhost:3000📧 Get in TouchI am always open to discussing new projects, creative ideas, or opportunities to be part of your vision.ChannelContact DetailLinkedIn/in/thiago-miraEmailthiago.mira2906@gmail.comWhatsApp+55 (71) 99126-6746"Transforming complex ideas into scalable and intelligent software solutions."
+2️⃣ Install dependencies
+bash
+Copiar código
+npm install
+3️⃣ Configure environment variables
+Create a .env.local file in the root directory and add your OpenAI credentials:
+
+env
+Copiar código
+OPENAI_API_KEY=your_actual_api_key_here
+4️⃣ Start the development server
+bash
+Copiar código
+npm run dev
+The application will be available at:
+👉 http://localhost:3000
+
+📬 Get in Touch
+I’m always open to discussing new projects, innovative ideas, or strategic partnerships.
+
+Channel	Contact
+💼 LinkedIn	https://linkedin.com/in/thiago-mira
+📧 Email	thiago.mira2906@gmail.com
+💬 WhatsApp	+55 (71) 99126-6746
+
+“Transforming complex ideas into scalable and intelligent software solutions.”
+
