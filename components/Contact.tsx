@@ -56,13 +56,19 @@ export default function Contact() {
   // Importante: Inicialize o projeto com o valor da tradução atual
   const [project, setProject] = useState(t.projects[0]);
 
-  const handleWhatsApp = (e) => {
-    e.preventDefault();
-    const phone = "5571991266746";
-    const message = t.message(name, project);
-    const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
-    window.open(url, "_blank");
-  };
+  // Altere a linha 59 para isto:
+const handleWhatsApp = (e: React.FormEvent) => {
+  e.preventDefault();
+  const phone = "5571991266746";
+  const message = t.message(name, project);
+  const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
+  window.open(url, "_blank");
+};
+
+// E lá embaixo, no seu select (por volta da linha 106), garanta que o map esteja assim:
+{t.projects.map((p: string) => (
+  <option key={p} value={p}>{p}</option>
+))}
 
   return (
     <section className="py-24 bg-[#0f172a]" id="contato">
