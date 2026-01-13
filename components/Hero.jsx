@@ -114,7 +114,7 @@ export default function Hero() {
             <div className="flex flex-col gap-3">
               {/* Opção Português - Usando tag <a> para abrir nova guia */}
               <a
-                href="/curriculo-pt.pdf" 
+                href="/cv/Thiago_Mira_CV_PT.pdf" 
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={() => setOpenModal(false)}
@@ -126,7 +126,7 @@ export default function Hero() {
 
               {/* Opção Inglês - Usando tag <a> para abrir nova guia */}
               <a
-                href="/curriculo-en.pdf"
+                href="/cv/Thiago_Mira_CV_EN.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={() => setOpenModal(false)}
