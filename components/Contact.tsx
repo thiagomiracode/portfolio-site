@@ -21,7 +21,8 @@ const translations = {
     ],
     button: "Chamar no WhatsApp",
     footer: "Seguro e Direto • Sem Spam",
-    message: (name, project) =>
+    // Corrigido: Adicionado tipos string para name e project
+    message: (name: string, project: string) =>
       `Olá Thiago! Meu nome é ${name}. Gostaria de falar sobre um projeto de ${project}. Vi seu portfólio e gostaria de trocar uma ideia!`,
   },
   en: {
@@ -40,7 +41,7 @@ const translations = {
     ],
     button: "Message me on WhatsApp",
     footer: "Secure & Direct • No Spam",
-    message: (name, project) =>
+    message: (name: string, project: string) =>
       `Hi Thiago! My name is ${name}. I’d like to talk about a ${project} project. I saw your portfolio and would love to connect!`,
   },
 };
